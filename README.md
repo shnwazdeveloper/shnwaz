@@ -1,41 +1,36 @@
-# shnwazdev Portfolio
+# shnwazdeveloper.github.io
 
-Personal portfolio website for **shnwazdev**.
+Personal portfolio website for **shnwazdev**, hosted with GitHub Pages.
 
 ## Live Website
 
-https://shnwazdeveloper.github.io/shnwaz/
+https://shnwazdeveloper.github.io/
 
-## Overview
+## About
 
-This repository contains a custom portfolio website built with:
+This site presents shnwazdev as a software engineer and web developer, with sections for profile details, skills, projects, timeline, contact links, and a terminal-style portfolio page.
+
+## Built With
 
 - HTML
 - CSS
 - JavaScript
-- Leaflet map integration
+- Leaflet
+- GitHub Pages
 
-The site includes:
+## Project Files
 
-- Hero and about section
-- Journey timeline
-- Interactive map
-- Skills and projects
-- Terminal-style interactive page
-
-## Project Structure
-
-- `index.html` main portfolio page
-- `neo-styles.css` primary styling
-- `script.js` interactive behavior
-- `terminal.html` terminal portfolio view
-- `image/` static assets
-- `robots.txt` crawler rules
-- `sitemap.xml` SEO sitemap
+- `index.html` - main portfolio page
+- `neo-styles.css` - primary site styling
+- `script.js` - interactive behavior
+- `terminal.html` - terminal-style portfolio view
+- `image/` - static images and assets
+- `robots.txt` - crawler rules
+- `sitemap.xml` - sitemap for the live site
 
 ## Run Locally
 
-This is a static website, so you can open `index.html` directly, or serve it locally:
+Open `index.html` directly in a browser, or serve the folder locally:
 
 ```powershell
 python -m http.server 8000
@@ -43,11 +38,13 @@ python -m http.server 8000
 
 Then open:
 
+```text
 http://localhost:8000
+```
 
 ## Deployment
 
-The website is deployed via **GitHub Pages** from this repository.
+The site is deployed from the `main` branch using GitHub Pages.
 
 ## License
 
